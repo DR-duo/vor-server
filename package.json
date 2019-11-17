@@ -1,0 +1,22 @@
+{
+  "name": "vor-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "data-pull": "node ./scripts/fetch-data.js download extract",
+    "data-download": "node ./scripts/fetch-data.js download",
+    "data-extract": "node ./scripts/fetch-data.js extract"
+  },
+  "author": "Drahcirius",
+  "license": "ISC",
+  "dependencies": {
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-aqua": "^7.1.2",
+    "yauzl": "^2.10.0"
+  }
+}
