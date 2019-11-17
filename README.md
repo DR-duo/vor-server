@@ -1,4 +1,4 @@
-VOL Server
+VOR Server
 ==========
 
 Startup instructions
